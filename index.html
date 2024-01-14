@@ -15,31 +15,32 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="shortcut icon" href="./images/reviews.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <button class="sidebar-toggle">
+    <button class="sidebar-toggle" id="main">
       <i class="fas fa-bars"></i>
     </button>
     <aside class="sidebar">
       <div class="sidebar-header">
-        <img src="logo.svg" class="logo" alt="" />
-        <button class="close-btn"><i class="fas fa-times"></i></button>
+        <img src="./logo.svg" class="logo" alt="" />
+        <button class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
       </div>
-      <!-- links -->
       <ul class="links">
         <li>
-          <a href="/">home</a>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="about.html">about</a>
+          <a href="#">About</a>
         </li>
         <li>
-          <a href="projects.html">projects</a>
+          <a href="#">Projects</a>
         </li>
         <li>
-          <a href="contact.html">contact</a>
+          <a href="#">Contact</a>
         </li>
       </ul>
       <!-- social media -->
@@ -71,6 +72,6 @@
         </li>
       </ul>
     </aside>
-    <script src="app.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
